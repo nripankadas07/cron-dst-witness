@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cron-dst-witness"
+version = "0.1.0"
+description = "Expose missing and ambiguous wall-clock cron slots with exact UTC witnesses."
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [{name = "Nripanka Das"}]
+dependencies = []
+
+[project.scripts]
+cron-dst-witness = "cron_dst_witness:main"
+
+[tool.setuptools]
+py-modules = ["cron_dst_witness"]

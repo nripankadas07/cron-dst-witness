@@ -1,0 +1,6 @@
+{
+  "expression": "30 1 * * *",
+  "zone": "America/New_York",
+  "start_date": "2026-11-01",
+  "days": 1
+}
